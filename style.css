@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding-top: 16px;
+}
+
+button {
+    display: flex;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    padding-right: 24px;
+    padding-top: 8px;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+    padding-top: 32px;
+}
+
+#gameover {
+    text-align: center;
+    padding-top: 32px;
+}
